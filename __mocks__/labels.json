@@ -348,6 +348,7 @@
       "content": [
         {
           "title": "¿Qué tan rapido quieres vender?",
+          "type": "button",
           "values": [
             "Lo más rápido posible",
             "En 3 meses",
@@ -357,6 +358,7 @@
         },
         {
           "title": "¿Cuál es tu expectativa de precio?",
+          "type": "range",
           "values": [
             "Monto mínimo",
             "Monto máximo"
