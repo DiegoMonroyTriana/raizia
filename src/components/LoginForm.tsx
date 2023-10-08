@@ -43,16 +43,16 @@ function LoginForm() {
       <Link href={'/'}>
         <RaiziaLogo color="#0B3142" width="120" />
       </Link>
-      <form onSubmit={handleSubmit} className=" flex flex-col gap-8 text-center">
-        <h2 className="text-6xl font-bold text-prussianBlue/90">{login.title}</h2>
-        <h3 className="text-xl text-prussianBlue/60 ">{login.subtitle}</h3>
+      <form onSubmit={handleSubmit} className=" flex flex-col lg:gap-8 gap-6 text-center">
+        <h2 className="lg:text-6xl text-2xl font-bold mt-4 lg:mt-0 text-prussianBlue/90">{login.title}</h2>
+        <h3 className="lg:text-xl text:sm text-prussianBlue/60 ">{login.subtitle}</h3>
         <Input label={login.form.email} type="email" required />
         <Input label={login.form.password} type="password" required />
-        <Button type="submit">{login.form.button}</Button>
+        <Button type="submit" className="lg:text-base text-sm">{login.form.button}</Button>
       </form>
       <div className="grid grid-cols-[1fr_auto_1fr] items-center my-10">
         <hr className="border-prussianBlue/60 border-[1px] ml-4" />
-        <p className="text-center text-prussianBlue/60 mx-3">{login.form.google}</p>
+        <p className="text-center text-prussianBlue/60 mx-3 lg:text-base text-xs">{login.form.google}</p>
         <hr className="border-prussianBlue/60 border-[1px] mr-4" />
       </div>
       <Button variant="outline" className="border-prussianBlue w-full flex justify-center items-center">

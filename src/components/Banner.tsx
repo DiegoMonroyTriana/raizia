@@ -11,11 +11,11 @@ function Banner() {
   return (
     <section className="w-full bg-prussianBlue flex flex-col">
       <Navigation rigthButtons={rigthButtons} middleButtons={middleButtons} />
-      <article className='text-center flex flex-col max-w-3xl self-center mt-16 gap-5 z-10'>
-        <h2 className="text-4xl text-lvory font-bold [text-wrap:balance]">{banner.title}</h2>
-        <h3 className="text-xl text-lvory [text-wrap:balance]">{banner.subtitle}</h3>
+      <article className='text-center flex flex-col max-w-3xl self-center mt-16 mb-48 lg:mb-0 gap-5 z-10'>
+        <h2 className="lg:text-4xl text-2xl text-lvory font-bold [text-wrap:balance]">{banner.title}</h2>
+        <h3 className="lg:text-xl text:base text-lvory [text-wrap:balance]">{banner.subtitle}</h3>
       </article>
-      <div className="flex flex-row self-center justify-center gap-12 mt-24 mb-[18rem] z-10">
+      <div className="hidden lg:flex flex-row self-center justify-center gap-12 mt-24 mb-[18rem] z-10">
         <Button href={banner.buttons[0].link} >
           {banner.buttons[0].title}
         </Button>

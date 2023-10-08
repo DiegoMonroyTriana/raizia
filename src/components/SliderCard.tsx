@@ -62,7 +62,7 @@ function SliderCard({ children }: Props) {
   }, [isLoader, push])
 
   return (
-    <article className="flex flex-col justify-center items-center bg-white aspect-video w-4/6 rounded-lg shadow-lg p-8 relative">
+    <article className="flex flex-col justify-center items-center bg-white lg:aspect-video lg:w-4/6 w-full md:h-fit h-full rounded-lg shadow-lg p-8 relative">
       {children}
       <div className="flex flex-row absolute bottom-10 gap-2 justify-center items-center">
         {
@@ -71,20 +71,20 @@ function SliderCard({ children }: Props) {
               <Button
                 action={handleReturn}
                 variant="outline"
-                className={`border-prussianBlue border-1 text-prussianBlue mr-10`}>
+                className={`border-prussianBlue border-1 text-prussianBlue lg:mr-10 lg:text-base text-xs`}>
                 {buttons.return}
               </Button>
               {Array.from({ length: totalSteps }, (_, i) => i + 1).map((step) => {
                 return (
                   <div
                     key={step}
-                    className={`w-4 h-4 rounded-full mx-2 ${currentStep === step ? 'bg-prussianBlue' : 'bg-gray-200'} ${isCondition ? 'bg-transparent' : ''}`}
+                    className={`lg:w-4 lg:h-4 w-2 h-2 rounded-full mx-2 ${currentStep === step ? 'bg-prussianBlue' : 'bg-gray-200'} ${isCondition ? 'bg-transparent' : ''}`}
                   />
                 )
               })}
               <Button
                 action={handleNext}
-                variant="fill" className="ml-10">
+                variant="fill" className="lg:ml-10 lg:text-base text-xs">
                 {buttons.next}
               </Button>
             </>

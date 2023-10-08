@@ -34,10 +34,10 @@ function Steps() {
 
   return (
     <article id="how-it-works" className="flex flex-col justify-center items-center w-full p-12 gap-10 scroll-smooth">
-      <h2 className="text-5xl font-bold text-prussianBlue">{steps.title}</h2>
-      <div className="flex flex-col justify-center items-center w-full mt-5">
+      <h2 className="lg:text-5xl text-xl font-bold text-prussianBlue">{steps.title}</h2>
+      <div className="flex flex-col justify-center items-center w-full lg:mt-5">
         {stepsList.map(step => (
-          <section key={step.id} className="grid grid-cols-2 place-content-center gap-x-16">
+          <section key={step.id} className="lg:grid grid-cols-2 place-content-center gap-x-16 flex flex-col gap-2">
             <div>
               {step.left}
             </div>

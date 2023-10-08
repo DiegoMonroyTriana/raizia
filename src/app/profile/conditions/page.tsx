@@ -9,7 +9,7 @@ function Conditions() {
       <Image src={conditions.src} alt={conditions.title} width={200} height={200} className="object-contain aspect-square self-center" />
       <div className="flex flex-col gap-2 max-w-4xl">
         {conditions.messages.map((message) => (
-          <p key={message} className="text-prussianBlue/70 text-base [text-wrap:balance] mb-3">{message}</p>
+          <p key={message} className="text-prussianBlue/70 lg:text-base text-xs [text-wrap:balance] lg:mb-3">{message}</p>
         ))}
       </div>
     </Container>

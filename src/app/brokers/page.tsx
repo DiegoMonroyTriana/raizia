@@ -37,15 +37,15 @@ function Brokers() {
     push('/profile/agreements')
   }
   return (
-    <div className="w-full flex flex-col justify-center items-center relative pt-24">
+    <div className="w-full flex flex-col justify-center items-center relative lg:pt-24 pt-5">
       <BrokerCard broker={currentBroker} colapsed={false} />
-      <button className="absolute left-16 top-72" onClick={handleReturn}>
+      <button className="absolute lg:left-16 lg:top-72 bottom-0 left-0" onClick={handleReturn}>
         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-left" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
           <path d="M15 6l-6 6l6 6" />
         </svg>
       </button>
-      <button className="absolute right-16 top-72" onClick={handleNext}>
+      <button className="absolute lg:right-16 lg:top-72 bottom-0 right-0" onClick={handleNext}>
         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
           <path d="M9 6l6 6l-6 6" />

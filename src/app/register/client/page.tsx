@@ -10,7 +10,7 @@ export default function BrokerRegister() {
         <LoginForm />
       </div>
       <section className="w-full h-screen bg-prussianBlue md:flex flex-col text-center justify-center items-center hidden">
-        <h2 className="text-4xl text-lvory [text-wrap:balance]">{login.message}</h2>
+        <h2 className="lg:text-4xl text-xl text-lvory [text-wrap:balance]">{login.message}</h2>
         <Image src="/login.png" width={1000} height={1000} alt='login' />
       </section>
     </>

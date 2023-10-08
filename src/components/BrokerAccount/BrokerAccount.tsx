@@ -4,7 +4,7 @@ import Header from "./Header";
 function BrokerAccount() {
 
   return (
-    <section className="pt-5 pr-10 bg-gray-100/50 pl-[350px]">
+    <section className="pt-5 lg:pr-10 bg-gray-100/50 lg:pl-[350px] w-full px-2">
       <Header />
       <Content />
     </section>

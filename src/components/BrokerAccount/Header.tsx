@@ -13,15 +13,15 @@ function Header() {
   const { account } = useLabels();
 
   return (
-    <header className="w-full bg-white py-4 px-6 grid grid-cols-[25%_auto_20%] shadow-lg rounded-md">
-      <div className="flex flex-row gap-4 border-r-2 border-gray-200 justify-left items-center">
+    <header className="w-full bg-white py-4 px-6 lg:grid grid-cols-[25%_auto_20%] flex flex-col gap-4 shadow-lg rounded-md">
+      <div className="flex flex-row gap-4 lg:border-r-2 border-gray-200 justify-left items-center">
         <Image src={'/placeholder.webp'} width={60} height={60} alt={'avatar'} className="rounded-full" />
         <div>
           <h2 className="font-semibold text-gray-600">{`${name} ${lastName}`}</h2>
           <span className="text-sm text-gray-400">{account.edit}</span>
         </div>
       </div>
-      <div className="flex flex-row gap-24 pl-10 items-center">
+      <div className="flex lg:flex-row flex-col lg:gap-24 lg:pl-10 lg:items-center gap-2">
         <div className="flex flex-row justify-center items-center gap-2 bg-gray-100 text-gray-700 px-4 py-2 rounded-full ">
           <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-calendar" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -48,7 +48,7 @@ function Header() {
           <small className="text-gray-400">{account.helper.qualification}: {qualification}</small>
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center">
+      <div className="lg:flex flex-row justify-center items-center hidden">
         <h2 className="font-bold text-gray-700">{account.helper.activeProfile}</h2>
       </div>
     </header>

@@ -20,7 +20,7 @@ const Layout = ({ children }: Props) => {
       <SliderCard>
         {children}
       </SliderCard>
-      <footer className="flex flex-row w-full border-t-1 border-gray-500 absolute bottom-0 left-0 right-0 justify-between px-10 py-8 ">
+      <footer className="hidden lg:flex flex-row w-full border-t-1 border-gray-500 absolute bottom-0 left-0 right-0 justify-between px-10 py-8 ">
         <Link href={'/'}>
           <RaiziaLogo width="100" color="gray" />
         </Link>

@@ -13,7 +13,7 @@ function SideMenu() {
   }
 
   return (
-    <aside className="h-screen py-10 shadow-xl flex flex-col justify-between fixed w-1/6 bg-white">
+    <aside className="hidden h-screen py-10 shadow-xl lg:flex flex-col justify-between lg:fixed w-1/6 bg-white">
       <div>
         <div className="border-b-1 border-gray-100 pb-4 pl-6">
           <RaiziaLogo width="100" color="gray" />

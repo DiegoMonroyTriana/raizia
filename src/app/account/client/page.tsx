@@ -69,16 +69,16 @@ function Binnacle() {
   }, [data, setBinnacle])
 
   return (
-    <article className="grid grid-cols-[65%_auto] w-full h-screen">
+    <article className="lg:grid grid-cols-[65%_auto] flex flex-col w-full h-screen">
       <section className="flex flex-col p-8 relative">
         <Link href="/">
           <RaiziaLogo color="gray" width="150" />
         </Link>
-        <div className="bg-prussianBlue absolute top-32 left-0 pl-8 py-4 pr-10">
+        <div className="bg-prussianBlue absolute lg:top-32 top-24 left-0 pl-8 py-4 pr-10">
           <h2 className="text-3xl text-white font-semibold">{currentStage?.title}</h2>
           <small className="text-lg text-white">{binnacle.subtitle}</small>
         </div>
-        <div className="grid grid-cols-[63%_auto] mt-48 gap-8">
+        <div className="lg:grid grid-cols-[63%_auto] lg:mt-48 mt-32 gap-8">
           <div className="flex flex-col gap-10">
             {currentLabels.steps.map((step) => (
               <div key={step.title} className="flex flex-col gap-2 [text-wrap:balance]">
@@ -89,16 +89,16 @@ function Binnacle() {
               </div>
             ))}
           </div>
-          <Image src={currentLabels.image} alt={currentLabels.title} width="1920" height="1080" className="aspect-auto object-cover scale-150" />
+          <Image src={currentLabels.image} alt={currentLabels.title} width="1920" height="1080" className="hidden lg:flex aspect-auto object-cover scale-150" />
         </div>
-        <footer className="absolute bottom-5 left-8">
+        <footer className="lg:absolute flex mt-2 bottom-5 left-8">
           <div className="max-w-xl flex flex-col gap-5 justify-start">
             <p className="text-prussianBlue/70 [text-wrap:balance]">{binnacle.footer.text}</p>
             <button className="w-fit border-2 border-prussianBlue text-prussianBlue uppercase py-2 px-2 rounded-md">{binnacle.footer.button}</button>
           </div>
         </footer>
       </section>
-      <section className="bg-prussianBlue/5 flex flex-col pt-32 px-10 gap-10">
+      <section className="bg-prussianBlue/5 flex flex-col lg:pt-32 py-5 px-10 gap-10">
         <h2 className="text-3xl text-prussianBlue font-bold uppercase">{binnacle.title}</h2>
         <div className="flex flex-col gap-4 w-full">
           {binnacleData.map((stage) => (

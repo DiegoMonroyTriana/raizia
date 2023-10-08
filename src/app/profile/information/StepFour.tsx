@@ -12,11 +12,14 @@ function StepFour() {
         {
           information.stepsFour.content.map((item) => (
             <div className="flex flex-col justify-center items-center" key={item.title}>
-              <Image src={item.src} alt={item.title} width={500} height={200} className="object-contain" />
-              <h3 className="text-prussianBlue/70 text-xl font-bold text-center">{item.title}</h3>
+              <Image src={item.src} alt={item.title} width={500} height={200} className="object-contain lg:mt-0 mt-5" />
+              <h3 className="text-prussianBlue/70 lg:text-xl text-sm font-bold text-center">{item.title}</h3>
               <div className="flex flex-col max-w-sm">
                 {item.values.map((value) => (
-                  <Button key={`${item.title}-${value}`} variant="outline" className="border-prussianBlue text-prussianBlue my-1 text-sm">{value}</Button>
+                  <Button
+                    key={`${item.title}-${value}`}
+                    variant="outline"
+                    className="border-prussianBlue text-prussianBlue my-1 lg:text-sm text-xs">{value}</Button>
                 ))}
               </div>
             </div>

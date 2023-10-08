@@ -43,7 +43,7 @@ function Content() {
         <h2 className="text-lg font-bold text-darkGreen/90">{account.leads.title}</h2>
         <p className="text-darkGreen/75 text-sm">{account.leads.message}</p>
       </section>
-      <section className="flex flex-row justify-start gap-8 my-10">
+      <section className="flex flex-row overflow-scroll py-4 justify-start gap-8 my-10">
         {properties.map((property) => {
           const formatter = new Intl.RelativeTimeFormat('es', { style: 'long' })
           const time = formatter.format(property.lastUpdate, 'day')
@@ -86,18 +86,18 @@ function Content() {
                   <small className="text-darkGreen/50 text-xs">{`${getCurrentPrice(property.minPrice)} - ${getCurrentPrice(property.maxPrice)}`}</small>
                 </div>
               </div>
-              <div className="flex justify-end mt-4">
+              <div className="flex justify-end lg:mt-4 mt-12">
                 <Button variant="fill" className="text-xs font-normal">{account.helper.details}</Button>
               </div>
             </article>
           )
         })}
       </section>
-      <section className="my-5">
+      <section className="my-5 lg:flex hidden">
         <h2 className="text-lg font-bold text-darkGreen/90">{account.transaction.title}</h2>
         <p className="text-darkGreen/75 text-sm">{account.transaction.message}</p>
       </section>
-      <div className="max-w-fit bg-white p-5 rounded-md shadow-lg  flex flex-col">
+      <div className="max-w-fit bg-white p-5 rounded-md shadow-lg lg:flex flex-col hidden">
         <div className='max-w-md mb-5'>
           <div className="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
             <div className="grid place-items-center h-full w-12 text-gray-300">
@@ -112,31 +112,31 @@ function Content() {
               placeholder={account.helper.search} />
           </div>
         </div>
-        <div className="grid grid-cols-7 ">
+        <div className="grid grid-cols-7 overflow-scroll">
           {account.transaction.keys.map((key) => (
             <div key={key} className="items-center place-items-center text-center  px-5 py-2">
-              <p className="text-darkGreen/80 font-semibold [text-wrap:balance] text-sm">{key}</p>
+              <p className="text-darkGreen/80 font-semibold lg:[text-wrap:balance] text-sm">{key}</p>
             </div>
           ))}
         </div>
         {transactions.map((transaction) => (
           <div key={transaction.client}
-            className="grid grid-cols-7 items-center place-items-center text-center border-y-1 border-gray-200  hover:bg-gray-50 px-5 py-2">
-            <p className="text-darkGreen/50 font-semibold [text-wrap:balance] text-sm">{transaction.client}</p>
+            className="grid grid-cols-7 overflow-scroll items-center place-items-center text-center border-y-1 border-gray-200  hover:bg-gray-50 px-5 py-2">
+            <p className="text-darkGreen/50 font-semibold lg:[text-wrap:balance] text-sm">{transaction.client}</p>
             <span className={`text-white ${transaction.type === 'Venta' ? 'bg-pink-500' : 'bg-blue-300'} py-1 px-4 rounded-full text-xs mx-1 w-fit h-fit`}>
               {transaction.type}
             </span>
-            <p className="text-darkGreen/50 font-semibold [text-wrap:balance] text-sm">{transaction.property}</p>
-            <p className="text-darkGreen/50 font-semibold [text-wrap:balance] text-sm"> {transaction.location}</p>
-            <p className="text-lightGreen font-semibold [text-wrap:balance] text-sm">{transaction.active ? account.helper.active : account.helper.inactive}</p>
-            <p className="text-darkGreen/50 font-semibold [text-wrap:balance] text-sm">{transaction.step}</p>
+            <p className="text-darkGreen/50 font-semibold lg:[text-wrap:balance] text-sm">{transaction.property}</p>
+            <p className="text-darkGreen/50 font-semibold lg:[text-wrap:balance] text-sm"> {transaction.location}</p>
+            <p className="text-lightGreen font-semibold lg:[text-wrap:balance] text-sm">{transaction.active ? account.helper.active : account.helper.inactive}</p>
+            <p className="text-darkGreen/50 font-semibold lg:[text-wrap:balance] text-sm">{transaction.step}</p>
             <Button variant="outline" className="border-prussianBlue text-prussianBlue text-sm w-fit self-center">{account.helper.details}</Button>
           </div>
         ))}
       </div>
       <footer className="flex flex-row  border-t-1 border-gray-500  justify-between px-10 mt-10 py-4 ">
         <RaiziaLogo width="100" color="gray" />
-        <span className="text-gray-500 text-sm">{footer.watermark}</span>
+        <span className="text-gray-500 lg:text-sm text-xs text-right">{footer.watermark}</span>
       </footer>
     </article>
   )

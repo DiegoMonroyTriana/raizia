@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className="md:grid grid-cols-2 w-full flex ">
+    <div className="md:grid grid-cols-2 w-full flex flex-col justify-center">
       {children}
     </div>
   )

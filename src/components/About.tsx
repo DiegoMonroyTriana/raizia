@@ -17,9 +17,9 @@ function About() {
   }
   return (
     <article id='safe' className="bg-prussianBlue/5 text-center flex justify-center items-center py-10">
-      <div className="text-center w-8/12">
-        <h2 className="text-5xl font-bold text-prussianBlue">{about.title}</h2>
-        <div className="grid grid-cols-[30%_auto] w-full mt-10 gap-9">
+      <div className="text-center lg:w-8/12 w-full">
+        <h2 className="lg:text-5xl text-xl font-bold text-prussianBlue">{about.title}</h2>
+        <div className="sm:grid lg:grid-cols-[30%_auto] grid-cols-2 w-full flex flex-col place-items-center mt-10 px-6 gap-9">
           <SectionsList handleChangeActive={handleChangeActive} isActive={isActive} />
           <Information accordion={accordion} />
         </div>

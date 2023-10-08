@@ -11,7 +11,7 @@ const StepOne = () => {
 
   return (
     <Container title={information.stepsOne.title}>
-      <div className="grid grid-cols-3 w-full gap-5 mt-24">
+      <div className="grid lg:grid-cols-3 grid-cols-2 w-full gap-5 lg:mt-24 mt-5">
         {information.stepsOne.content.map((item) => (
           <Image
             onClick={() => setSelectOption(item.title)}

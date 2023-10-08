@@ -35,7 +35,7 @@ function Profile() {
     setCurrentStep(1)
   }, [setCurrentStep]);
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col w-10/12 justify-start h-full py-10 px-8">
+    <form onSubmit={handleSubmit} className="flex flex-col lg:w-10/12  justify-start h-full py-10 lg:px-8 px-0">
       <h2 className="text-2xl font-bold text-center mb-10">{profile.title}</h2>
       <div className="flex flex-col gap-4 mb-10">
         <h3>{profile.labelName}<small className="text-red-400">*</small></h3>
@@ -55,7 +55,7 @@ function Profile() {
       </div>
       <button
         type="submit"
-        className="w-fit self-center border-1 border-lightGreen px-4 py-2 rounded-md text-xl hover:bg-lightGreen/75 transition-all">
+        className="w-fit self-center border-1 border-lightGreen px-4 py-2 rounded-md lg:text-xl text-sm hover:bg-lightGreen/75 transition-all">
         {profile.validate}
       </button>
     </form>

@@ -5,7 +5,7 @@ function Brand() {
   return (
     <article className="bg-gray-200 w-full py-14 flex justify-center">
       <section className="max-w-2xl text-center">
-        <h3 className="text-xl text-gray-900 [text-wrap:balance]">{brand.message}</h3>
+        <h3 className="lg:text-xl text-sm text-gray-900 [text-wrap:balance]">{brand.message}</h3>
       </section>
     </article>
   )
