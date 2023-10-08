@@ -33,7 +33,7 @@ function SideMobile({ buttons }: { buttons: Buttons[] }) {
               </button>
             </div>
             <ul>
-              <LoginButtons rigthButtons={buttons} />
+              <LoginButtons rigthButtons={buttons} isShort />
             </ul>
           </aside>
         )
