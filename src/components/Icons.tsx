@@ -56,3 +56,16 @@ export const CircleIcon = ({ width = '24px', color = 'white', className }: {
     <path d='M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20Z' />
   </svg>
 )
+
+export const LogoutIcon = ({ width = '24px', color = 'white', className = '' }: {
+  width?: string
+  color?: string
+  className?: string
+}) => (
+  <svg xmlns="http://www.w3.org/2000/svg" className={`icon icon-tabler icon-tabler-logout ${className}`} width={width} viewBox="0 0 24 24" stroke-width="1.5" stroke={color} fill="none" stroke-linecap="round" strokeLinejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+    <path d="M9 12h12l-3 -3" />
+    <path d="M18 15l3 -3" />
+  </svg>
+)
