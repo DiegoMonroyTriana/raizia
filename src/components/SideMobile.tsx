@@ -2,8 +2,8 @@
 
 import { useState } from "react"
 import { Buttons } from "./Navigation"
-import Link from "next/link"
 import { RaiziaLogo } from "./Icons"
+import LoginButtons from "./LoginButtons"
 
 function SideMobile({ buttons }: { buttons: Buttons[] }) {
   const [open, setOpen] = useState(false)
@@ -33,13 +33,7 @@ function SideMobile({ buttons }: { buttons: Buttons[] }) {
               </button>
             </div>
             <ul>
-              {buttons.map((button) => (
-                <li key={button.title} className='sm:text-lg text-sm font-bold text-prussianBlue hover:bg-lightGreen/10 sm:px-8 py-5 pl-2'>
-                  <Link href={button.link}>
-                    {button.title}
-                  </Link>
-                </li>
-              ))}
+              <LoginButtons rigthButtons={buttons} />
             </ul>
           </aside>
         )
