@@ -1,0 +1,33 @@
+[
+  {
+    "property": "Casa",
+    "type": [
+      "Compra"
+    ],
+    "minPrice": 3000000,
+    "maxPrice": 5000000,
+    "location": "San Juan Tihuaca, CP 39445",
+    "lastUpdate": -3
+  },
+  {
+    "property": "Departamento",
+    "type": [
+      "Venta"
+    ],
+    "minPrice": 23000000,
+    "maxPrice": 35000000,
+    "location": "Condado de Sayavedra, CP 52938",
+    "lastUpdate": -5
+  },
+  {
+    "property": "Casa",
+    "type": [
+      "Venta",
+      "Compra"
+    ],
+    "minPrice": 18000000,
+    "maxPrice": 22000000,
+    "location": "Lomas de Chapultepec, CP 11000",
+    "lastUpdate": -1
+  }
+]

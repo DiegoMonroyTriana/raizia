@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Etapa 1",
+    "title": "Selección de asesor",
+    "steps": [
+      {
+        "title": "Realizar cuestionario",
+        "completed": false
+      },
+      {
+        "title": "Elegir asesor",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "name": "Etapa 2",
+    "title": "Contacto con asesor",
+    "steps": [
+      {
+        "title": "Llamada telefonica",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "name": "Etapa 3",
+    "title": "Recolección de documentos",
+    "steps": [
+      {
+        "title": "Envío de escrituras",
+        "completed": false
+      },
+      {
+        "title": "Envío de predial",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "name": "Etapa 4",
+    "title": "Visistas a tu propiedad",
+    "steps": [
+      {
+        "title": "Visita",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "name": "Etapa 5",
+    "title": "Ofertas",
+    "steps": [
+      {
+        "title": "Oferta",
+        "completed": false
+      }
+    ]
+  }
+]

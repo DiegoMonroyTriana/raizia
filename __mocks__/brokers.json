@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Daniela Renovato",
+    "description": "Hola, tengo amplia experiencia en el mercado inmobiliario. Me encantaría ayudarte a encontrar el inmueble perfecto para ti y tu familia",
+    "image": "/avatar-1.jpg",
+    "media": {
+      "facebook": "daniela.renovato",
+      "instagram": "@daniela_renovato",
+      "linkedin": "Daniela Renovato",
+      "website": "danielarenovato.com"
+    },
+    "kpis": [
+      {
+        "name": "Años de experiencia",
+        "value": 5
+      },
+      {
+        "name": "Transacciones cerradas en los últimos 3 meses",
+        "value": 7
+      }
+    ],
+    "zones": [
+      "Polanco",
+      "Anahuac",
+      "Condesa",
+      "Roma",
+      "Narvarte",
+      "Del valle"
+    ],
+    "certifications": [
+      {
+        "name": "Maestría en Bunkers",
+        "place": "Estudio en Universidad Iberoamericana"
+      },
+      {
+        "name": "Diplomado en venta de castillos y fortalezas",
+        "place": "Certificación"
+      }
+    ]
+  },
+  {
+    "name": "Juan Perez",
+    "description": "Hola, tengo amplia experiencia en el mercado inmobiliario. Me encantaría ayudarte a encontrar el inmueble perfecto para ti y tu familia",
+    "image": "/avatar-2.webp",
+    "media": {
+      "facebook": "juan.perez",
+      "instagram": "@juan_perez",
+      "linkedin": "Juan Perez",
+      "website": "juanperez.com"
+    },
+    "kpis": [
+      {
+        "name": "Años de experiencia",
+        "value": 5
+      },
+      {
+        "name": "Transacciones cerradas en los últimos 3 meses",
+        "value": 7
+      }
+    ],
+    "zones": [
+      "Polanco",
+      "Anahuac",
+      "Condesa",
+      "Roma",
+      "Narvarte",
+      "Del valle"
+    ],
+    "certifications": [
+      {
+        "name": "Maestría en Bunkers",
+        "place": "Estudio en Universidad Iberoamericana"
+      },
+      {
+        "name": "Diplomado en venta de castillos y fortalezas",
+        "place": "Certificación"
+      }
+    ]
+  },
+  {
+    "name": "Maria Sanchez",
+    "description": "Hola, tengo amplia experiencia en el mercado inmobiliario. Me encantaría ayudarte a encontrar el inmueble perfecto para ti y tu familia",
+    "image": "/avatar-3.webp",
+    "media": {
+      "facebook": "maria.sanchez",
+      "instagram": "@maria_sanchez",
+      "linkedin": "Maria Sanchez",
+      "website": "mariasanchez.com"
+    },
+    "kpis": [
+      {
+        "name": "Años de experiencia",
+        "value": 5
+      },
+      {
+        "name": "Transacciones cerradas en los últimos 3 meses",
+        "value": 7
+      }
+    ],
+    "zones": [
+      "Polanco",
+      "Anahuac",
+      "Condesa",
+      "Roma",
+      "Narvarte",
+      "Del valle"
+    ],
+    "certifications": [
+      {
+        "name": "Maestría en Bunkers",
+        "place": "Estudio en Universidad Iberoamericana"
+      },
+      {
+        "name": "Diplomado en venta de castillos y fortalezas",
+        "place": "Certificación"
+      }
+    ]
+  }
+]

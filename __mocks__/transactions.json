@@ -1,0 +1,34 @@
+[
+  {
+    "client": "Rafael Márquez Lugo",
+    "type": "Venta",
+    "property": "Casa",
+    "location": "San Juan Tihuaca, CP 39445",
+    "active": true,
+    "step": "Visita a su inmueble"
+  },
+  {
+    "client": "Roberto Carlos",
+    "type": "Compra",
+    "property": "Departamento",
+    "location": "Lomas Verdes 5ta Sección, CP 92941",
+    "active": true,
+    "step": "Análisis de opciones"
+  },
+  {
+    "client": "Iker Casillas",
+    "type": "Venta",
+    "property": "Departamento",
+    "location": "Escandón, CP 23942",
+    "active": true,
+    "step": "Oferta"
+  },
+  {
+    "client": "Javier Hernández",
+    "type": "Compra",
+    "property": "Casa",
+    "location": "Lomas de Chapultepec, CP 23942",
+    "active": true,
+    "step": "Firma de contrato"
+  }
+]

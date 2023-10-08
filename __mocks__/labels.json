@@ -1,0 +1,511 @@
+{
+  "navigation": {
+    "middleButtons": [
+      {
+        "title": "¿Cómo funciona?",
+        "link": "#how-it-works"
+      },
+      {
+        "title": "¿Como sé que es seguro?",
+        "link": "#safe"
+      }
+    ],
+    "rigthButtons": [
+      {
+        "title": "Registrate como asesor",
+        "link": "/login?role=broker"
+      },
+      {
+        "title": "Encuentra a tu asesor",
+        "link": "/login?role=client"
+      }
+    ]
+  },
+  "banner": {
+    "title": "Asesoría inmobiliaria de calidad, formal y digital",
+    "subtitle": "Te garantizamos claridad y el mejor seguimiento en cada etapa del proceso con los mejores asesores del mercado.",
+    "buttons": [
+      {
+        "title": "Encuentra a tu asesor en 10 min.",
+        "link": "/login?role=client"
+      },
+      {
+        "title": "Inicia sesión con google",
+        "link": "/"
+      }
+    ]
+  },
+  "brand": {
+    "message": "En Raizia contamos con los mejores profesionales inmobiliarios que te ayudarán a vender o comprar una propiedad de con el mejor servicio. Encontrar al mejor asesor inmobiliario para ti es gratis siempre."
+  },
+  "steps": {
+    "title": "¿Cómo funciona?",
+    "first": {
+      "heading": "Paso 1",
+      "title": "Responde 5 preguntas",
+      "message": "Con tan solo responder un breve cuestionario, nos permitirá entender que estás buscando y utilizando nuestro algoritmo encontraremos asesores con mayor experiencia para lo que tu necesitas."
+    },
+    "second": {
+      "heading": "Paso 2",
+      "title": "Elige a tu asesor",
+      "message": "Te mostraremos a los mejores asesores para apoyarte en tu transición con vase en criterios relevantes como: Tipo de propiedad, ubicación, calificación del agente y más. Tu podrás elegír a quién te parezca que su experiencia sea lo que estás buscando."
+    },
+    "third": {
+      "heading": "Paso 3",
+      "title": "Realiza el seguimiento",
+      "message": "Todo el proceso lo podrás ver y corroborar en tiempo real, además de tener el control de cada etapa, en la palma de tus manos."
+    }
+  },
+  "brokers": {
+    "heading": "Elige a tu broker",
+    "zone": "Zona de mayor experiencia",
+    "certifications": "Estudios y certificaciones"
+  },
+  "about": {
+    "title": "Conoce más",
+    "sections": [
+      {
+        "title": "Empresa",
+        "accordion": [
+          {
+            "head": "¿Quiénes somos?",
+            "title": "¡Vive la experiencia de trabajar con un agente RAIZIA!",
+            "messages": [
+              "Somos una proptech fundada en 2021 con la misión de transformar la profesión de agentes inmobiliarios en nuestro país y en LATAM.",
+              "Nuestra solución de broker matching ofrece solución a uno de los dolores presentes más comunes. Dónde encontrar un agente inmobiliario profesional, preparado, con conocimientos comprobables que realmente se interese en mis necesidades? No de paso, no improvisado!",
+              "Raizia te conecta con el agente inmobiliario que te dará la mejor experiencia de sercivio para la compra o venta de tu inmueble.",
+              "¿Agentes profesionales? Sí existe, están en RAIZIA."
+            ]
+          },
+          {
+            "head": "Empleos",
+            "title": "¡Únete a nuestro equipo!",
+            "messages": [
+              "En Raizia estamos en constante crecimiento y buscamos talento para unirse a nuestro equipo. Si te interesa formar parte de nuestro equipo"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Recursos",
+        "accordion": [
+          {
+            "head": "Centro de ayuda",
+            "title": "¡Conoce más sobre el mercado inmobiliario!",
+            "messages": [
+              "En nuestro blog encontrarás información relevante sobre el mercado inmobiliario, tips para comprar o vender tu inmueble, información sobre créditos hipotecarios y más."
+            ]
+          },
+          {
+            "head": "¿Qué hace un asesor inmobiliario?",
+            "title": "¡Resuelve tus dudas!",
+            "messages": [
+              "En nuestro blog encontrarás información relevante sobre el mercado inmobiliario, tips para comprar o vender tu inmueble, información sobre créditos hipotecarios y más."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Monetización",
+        "accordion": [
+          {
+            "head": "¿Cómo es rentable?",
+            "title": "",
+            "messages": [
+              "Para Raizia es importante que los agentes inmobiliarios tengan la oportunidad de crecer y desarrollarse profesionalmente, por lo que no cobramos comisiones por las operaciones que se realicen a través de nuestra plataforma."
+            ]
+          },
+          {
+            "head": "Costos",
+            "title": "Precios y costos",
+            "messages": [
+              "Para Raizia es importante que los agentes inmobiliarios tengan la oportunidad de crecer y desarrollarse profesionalmente, por lo que no cobramos comisiones por las operaciones que se realicen a través de nuestra plataforma."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Funcionamiento",
+        "accordion": [
+          {
+            "head": "Cuestionario",
+            "title": "",
+            "messages": [
+              ""
+            ]
+          },
+          {
+            "head": "Asesores Raizia",
+            "title": "",
+            "messages": [
+              ""
+            ]
+          },
+          {
+            "head": "Procesos de seguridad",
+            "title": "",
+            "messages": [
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "title": "¿Como sé que es seguro?",
+        "accordion": [
+          {
+            "head": "¿Como sé que es seguro?",
+            "title": "",
+            "messages": [
+              "En Raizia, nos tomamos muy en serio nuestra misión y ésta es la de ayudar a profesionalizar y transformar la profesión de agentes inmobiliarios en México y LATAM.",
+              "La información que recabamos cuenta con la protección de datos según la (nombre de la institución), revisa nuestro Aviso de privacidad y protección de datos"
+            ]
+          },
+          {
+            "head": "Privacidad",
+            "title": "",
+            "messages": [
+              ""
+            ]
+          },
+          {
+            "head": "Seguridad",
+            "title": "",
+            "messages": [
+              ""
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "highlights": {
+    "title": "Los mejores asesores inmobiliarios, con el mejor servicio transparente garantizado",
+    "subtitle": "Raizia es la plataforma que facilita la compra o venta de cualquie inmueble, sin engaños y digital.",
+    "kpis": [
+      {
+        "value": 55,
+        "text": "Asesores calificados"
+      },
+      {
+        "value": 83,
+        "text": "Transacciones exitosas"
+      },
+      {
+        "value": 71,
+        "text": "Transacciones exitosas"
+      }
+    ],
+    "buttons": [
+      {
+        "title": "Registrate como asesor",
+        "link": "/login?role=broker"
+      },
+      {
+        "title": "Encuentra a tu asesor",
+        "link": "/login?role=client"
+      }
+    ]
+  },
+  "footer": {
+    "media": [
+      "facebook",
+      "instagram",
+      "linkedin"
+    ],
+    "links": [
+      "Seguridad",
+      "Privacidad",
+      "Términos y condiciones"
+    ],
+    "watermark": "©2023 Raizia Technologies es una empresa registrada"
+  },
+  "login": {
+    "title": "¡Bienvenido!",
+    "subtitle": "Crea una cuenta para empezar",
+    "message": "Raizia te ayudará a encontrar al asesor inmobiliario perfecto",
+    "form": {
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "button": "Registrarme",
+      "google": "Iniciar sesión con Google"
+    }
+  },
+  "profile": {
+    "title": "Completa tu perfil",
+    "labelName": "Nombre completo",
+    "name": "Nombre",
+    "lastname": "Apellido",
+    "labelPhone": "Teléfono",
+    "phone": "Teléfono",
+    "labelBirthday": "Fecha de nacimiento",
+    "day": "Día",
+    "month": "Mes",
+    "year": "Año",
+    "validate": "Validar"
+  },
+  "buttons": {
+    "return": "Regresar",
+    "next": "Continuar"
+  },
+  "account": {
+    "sections": [
+      {
+        "name": "Portafolio",
+        "message": "Administra tu cartera de propiedades; realiza el seguimiento de tus transacciones activas y acepta leads nuevos."
+      }
+    ],
+    "logout": "Cerrar sesión",
+    "help": "Ayuda e información",
+    "profile": "Mi perfil",
+    "edit": "Editar perfil",
+    "leads": {
+      "title": "Nuevo leads",
+      "message": "Estos son los leads calificados de personas interesadas en tus servicios que se alinean con tus áreas de experiencia."
+    },
+    "transaction": {
+      "title": "Transacciones",
+      "message": "Estos son todos tus procesos.",
+      "keys": [
+        "Cliente",
+        "Tipo de transacción",
+        "Tipo de inmueble",
+        "Dirección",
+        "Estado",
+        "Etapa del proceso"
+      ]
+    },
+    "helper": {
+      "qualification": "Calificación promedio",
+      "activeProfile": "Perfil activo",
+      "inactiveProfile": "Perfil inactivo",
+      "buy": "Compra",
+      "sell": "Venta",
+      "active": "Activo",
+      "inactive": "Inactivo",
+      "details": "Ver detalle",
+      "search": "Buscar",
+      "all": "Todos"
+    }
+  },
+  "information": {
+    "stepsOne": {
+      "title": "¿Qué desea hacer?",
+      "content": [
+        {
+          "src": "/sell.webp",
+          "title": "Vender"
+        },
+        {
+          "src": "/buy.webp",
+          "title": "Comprar"
+        },
+        {
+          "src": "/buyandsell.webp",
+          "title": "Vender y comprar"
+        }
+      ]
+    },
+    "stepsTwo": {
+      "title": "¿Qué tipo de inmueble es?"
+    },
+    "stepsThree": {
+      "title": "¿En que ubicación te gustaría comprar?",
+      "content": {
+        "title": "Selecciona una ubicación",
+        "cp": "Código postal",
+        "zone": "Colonia"
+      }
+    },
+    "stepsFour": {
+      "title": "Información de construcción",
+      "content": [
+        {
+          "src": "/building.webp",
+          "title": "¿Cuándo fue construida?",
+          "values": [
+            "Después de 2000",
+            "En la decada de los 2000",
+            "En la dedada de los 1990",
+            "Antes de 1980"
+          ]
+        },
+        {
+          "src": "/remodel.webp",
+          "title": "¿Cuándo fue la última remodelación?",
+          "values": [
+            "Después de 2000",
+            "En la decada de los 2000",
+            "En la dedada de los 1990",
+            "Antes de 1980"
+          ]
+        }
+      ]
+    },
+    "stepsFive": {
+      "title": "Expectativas",
+      "src": "/expectations.webp",
+      "content": [
+        {
+          "title": "¿Qué tan rapido quieres vender?",
+          "values": [
+            "Lo más rápido posible",
+            "En 3 meses",
+            "En 6 meses",
+            "En 1 año"
+          ]
+        },
+        {
+          "title": "¿Cuál es tu expectativa de precio?",
+          "values": [
+            "Monto mínimo",
+            "Monto máximo"
+          ]
+        }
+      ]
+    }
+  },
+  "loader": {
+    "title": "Buscando al mejor agente para ti"
+  },
+  "conditions": {
+    "title": "Antes de continuar",
+    "src": "/conditions.webp",
+    "messages": [
+      "Los agentes que a continuación te presentamos, han pasado por un filtro de verificación de experiencia, aptitues, cursos y certificaciones por lo que han sido seleccionados de acuerdo a tus necesidades como expertos en tu zona y tipo de inmueble.",
+      "Para brindarte mayor satisfacción y seguridad en tu operación, recomendamos llevar a cabo el proceso completo vía Raizia, de esta manera nos aseguramos de que tu agente pueda darte la mejor experiencia profesional bajo nuestras politicas de servicio y códo de ética. Evita fraudes y/o malas experiencias."
+    ]
+  },
+  "agreements": {
+    "title": "Acuerdos de comisión",
+    "src": "/agreements.webp",
+    "messages": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum corporis praesentium recusandae architecto odio commodi alias ipsum, pariatur error magnam unde soluta totam voluptatibus labore accusamus adipisci debitis eius quod."
+    ]
+  },
+  "accept": {
+    "title": "Ya tienes un asesor inmobiliario",
+    "src": "/accept.webp",
+    "messages": [
+      "replaceName se comunicará contigo en menos de 12 horas",
+      "Si no te contacta o si deseas contactarlo antes, esta es su tarjeta de contacto:"
+    ],
+    "contact": {
+      "phone": "Teléfono",
+      "email": "Correo electrónico"
+    },
+    "binnacle": "Ir a la bitacora"
+  },
+  "binnacle": {
+    "title": "Proceso de venta",
+    "subtitle": "Etapa actual del proceso",
+    "finish": "Realizado",
+    "footer": {
+      "text": "Para Raizia la retroalimentación que nos das del servicio es sumamente importante. Si tienes 2 minutos, tu opinión nos ayudará a seguir mejorando.",
+      "button": "Dar retroalimentación"
+    },
+    "info": [
+      {
+        "name": "Etapa 1",
+        "title": "Selección de asesor",
+        "image": "/stage1.webp",
+        "steps": [
+          {
+            "title": "¿Qué pasa en esta etapa?",
+            "messages": [
+              "Deberás de contestrar nuestro cuestionario para poder obtener mayor detalle de tu inmbueble y de la operación que deseas realizar, tus necesidades son lo mas importante para nosotros."
+            ]
+          },
+          {
+            "title": "Elige a tu agente Raizia",
+            "messages": [
+              "Nuestro algoritmo te presentará opciones de perfiles de agente Raizia en base a tus respuestas, operación y necesidades.",
+              "Tus respuestas nos darán los parámetros para poder presentarte a los 3 perfiles mejor calificados para tu necesidad inmobiliaria, por ello, agradeciemos éstas sean lo más exactas posible."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Etapa 2",
+        "title": "Contacto con asesor",
+        "image": "/stage2.webp",
+        "steps": [
+          {
+            "title": "¿Qué pasa en esta etapa?",
+            "messages": [
+              "El asesor se pondrá en contacto contigo para agendar una cita y conocer tu inmueble, así como tus necesidades."
+            ]
+          },
+          {
+            "title": "Elige a tu agente Raizia",
+            "messages": [
+              "Nuestro algoritmo te presentará opciones de perfiles de agente Raizia en base a tus respuestas, operación y necesidades.",
+              "Tus respuestas nos darán los parámetros para poder presentarte a los 3 perfiles mejor calificados para tu necesidad inmobiliaria, por ello, agradeciemos éstas sean lo más exactas posible."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Etapa 3",
+        "title": "Recolección de documentos",
+        "image": "/stage3.webp",
+        "steps": [
+          {
+            "title": "¿Qué pasa en esta etapa?",
+            "messages": [
+              "Tu asesor te pedirá que le compartas papeles de tu propiedad que le permitirán armar tu expediete, para a su vez compartirlo con los potenciales compradores."
+            ]
+          },
+          {
+            "title": "¿Qué papeles necesito?",
+            "messages": [
+              "1. Escrituras",
+              "2. Predial",
+              "Una vez que todo lo necesario de esta etapa esté terminado, no olvides dar click en el botón de \"Realizado\" en el panel de la derecha, esto es necesario para avanzar en el proceso."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Etapa 4",
+        "title": "Visistas a tu propiedad",
+        "image": "/stage4.webp",
+        "steps": [
+          {
+            "title": "¿Qué pasa en esta etapa?",
+            "messages": [
+              "Deberás de contestrar nuestro cuestionario para poder obtener mayor detalle de tu inmbueble y de la operación que deseas realizar, tus necesidades son lo mas importante para nosotros."
+            ]
+          },
+          {
+            "title": "Elige a tu agente Raizia",
+            "messages": [
+              "Nuestro algoritmo te presentará opciones de perfiles de agente Raizia en base a tus respuestas, operación y necesidades.",
+              "Tus respuestas nos darán los parámetros para poder presentarte a los 3 perfiles mejor calificados para tu necesidad inmobiliaria, por ello, agradeciemos éstas sean lo más exactas posible."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Etapa 5",
+        "title": "Ofertas",
+        "image": "/stage5.webp",
+        "steps": [
+          {
+            "title": "¿Qué pasa en esta etapa?",
+            "messages": [
+              "Deberás de contestrar nuestro cuestionario para poder obtener mayor detalle de tu inmbueble y de la operación que deseas realizar, tus necesidades son lo mas importante para nosotros."
+            ]
+          },
+          {
+            "title": "Elige a tu agente Raizia",
+            "messages": [
+              "Nuestro algoritmo te presentará opciones de perfiles de agente Raizia en base a tus respuestas, operación y necesidades.",
+              "Tus respuestas nos darán los parámetros para poder presentarte a los 3 perfiles mejor calificados para tu necesidad inmobiliaria, por ello, agradeciemos éstas sean lo más exactas posible."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
