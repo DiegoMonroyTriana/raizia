@@ -1,14 +1,17 @@
 'use client'
 
 import { useLabels } from "@/utils/useLabels";
-import { RaiziaLogo } from "./Icons";
+import { LogoutIcon, RaiziaLogo } from "./Icons";
 import { useRouter } from "next/navigation";
+import useUserStore, { initialState } from "@/store/store";
+import Link from "next/link";
 
 function SideMenu() {
   const { account } = useLabels();
   const { push } = useRouter();
 
   function handleLogout() {
+    useUserStore.setState(initialState);
     push('/');
   }
 
@@ -16,7 +19,9 @@ function SideMenu() {
     <aside className="hidden h-screen py-10 shadow-xl lg:flex flex-col justify-between lg:fixed w-1/6 bg-white">
       <div>
         <div className="border-b-1 border-gray-100 pb-4 pl-6">
-          <RaiziaLogo width="100" color="gray" />
+          <Link href="/">
+            <RaiziaLogo width="100" color="gray" />
+          </Link>
         </div>
         <nav>
           <ul className="flex flex-col gap-4 mt-10">
@@ -37,12 +42,7 @@ function SideMenu() {
       </div>
       <footer>
         <button onClick={handleLogout} className="flex flex-row gap-4 py-2 hover:bg-lightGreen/5 w-full transition-all pl-5">
-          <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-logout" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" strokeLinejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
-            <path d="M9 12h12l-3 -3" />
-            <path d="M18 15l3 -3" />
-          </svg>
+          <LogoutIcon />
           {account.logout}
         </button>
         <button className="flex flex-row gap-4 py-2 hover:bg-lightGreen/5 w-full transition-all pl-5">
