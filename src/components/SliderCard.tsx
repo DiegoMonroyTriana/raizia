@@ -32,9 +32,7 @@ function SliderCard({ children }: Props) {
     if (currentStep === totalSteps) {
       return push(LOADER_PATH)
     }
-    if (currentStep === 1) {
-      return push(INFORMATION_PATH)
-    }
+
     if (currentStep !== totalSteps) {
       setCurrentStep(currentStep + 1)
       return push(`${INFORMATION_PATH}/${currentStep + 1}`)
@@ -62,7 +60,9 @@ function SliderCard({ children }: Props) {
   }, [isLoader, push])
 
   return (
-    <article className="flex flex-col justify-center items-center bg-white lg:aspect-video lg:w-4/6 w-full md:h-fit h-full rounded-lg shadow-lg p-8 relative">
+    <article
+      className="flex flex-col justify-center items-center bg-white lg:aspect-video lg:w-4/6 w-full xl:h-[720px] lg:h-[640px] h-full md:pb-32 rounded-lg shadow-lg p-8 relative"
+    >
       {children}
       <div className="flex flex-row absolute bottom-10 gap-2 justify-center items-center">
         {
