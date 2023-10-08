@@ -5,7 +5,7 @@ function Loader() {
   const { loader } = useLabels();
   return (
     <Container title={loader.title}>
-      <div className="relative grid place-items-center h-full -mt-20">
+      <div className="relative grid place-items-center h-full mt-20">
         <div className="bg-prussianBlue/10 w-48 h-48  absolute animate-ping rounded-full delay-5s shadow-xl"></div>
         <div className="bg-prussianBlue/70 w-32 h-32 absolute animate-ping rounded-full shadow-xl"></div>
         <div className="bg-white w-24 h-24 absolute animate-pulse rounded-full shadow-xl"></div>
