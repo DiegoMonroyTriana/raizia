@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useLabels } from "@/utils/useLabels";
 
-function LoginButtons({ rigthButtons }: { rigthButtons: Buttons[] }) {
+function LoginButtons({ rigthButtons, isShort = false }: { rigthButtons: Buttons[], isShort?: boolean }) {
   const { name, email, lastName, role } = useUserStore();
   const { account } = useLabels();
   const isLogged = name !== '' && email !== '' && lastName !== '';
@@ -49,11 +49,19 @@ function LoginButtons({ rigthButtons }: { rigthButtons: Buttons[] }) {
   }
 
   return (
-    <ul className='flex flex-row gap-3 items-center justify-end'>
-      {rigthButtons.map((button, i) => (
-        <Button key={button.link} href={button.link} variant={i === 0 ? 'outline' : 'fill'}>
-          {button.title}
-        </Button>
+    <ul className={`flex ${isShort ? 'flex-col' : 'flex-row'} gap-3 items-center justify-end`}>
+      {rigthButtons.map((button, i) => !isShort ? (
+        <li key={button.link} >
+          <Button href={button.link} variant={i === 0 ? 'outline' : 'fill'}>
+            {button.title}
+          </Button>
+        </li>
+      ) : (
+        <li key={button.link} className='hover:opacity-90 transition-all md:text-lg text-sm p-5 text-left gap-4'>
+          <Link href={button.link}>
+            {button.title}
+          </Link>
+        </li>
       ))}
     </ul>
   )
