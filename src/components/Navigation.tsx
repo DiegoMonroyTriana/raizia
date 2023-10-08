@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { RaiziaLogo } from './Icons';
-import Button from './Button';
 import SideMobile from './SideMobile';
+import LoginButtons from './LoginButtons';
 
 export type Buttons = {
   title: string;
@@ -30,13 +30,7 @@ function Navigation({ rigthButtons, middleButtons }: NavigationProps) {
             </li>
           ))}
         </ul>
-        <ul className='flex flex-row gap-3 items-center justify-end'>
-          {rigthButtons.map((button, i) => (
-            <Button key={button.link} href={button.link} variant={i === 0 ? 'outline' : 'fill'}>
-              {button.title}
-            </Button>
-          ))}
-        </ul>
+        <LoginButtons rigthButtons={rigthButtons} />
       </nav>
       <SideMobile buttons={rigthButtons} />
     </>
